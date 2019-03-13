@@ -1,0 +1,11 @@
+
+$fonts: (
+    OpenSans: "'Open Sans', sans-serif",
+    Cabin: "'Cabin', sans-serif"
+);
+
+@each $key, $val in $fonts {
+    .#{$key}-fontFam {
+        font-family: #{$val};
+    }
+}

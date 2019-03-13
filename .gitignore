@@ -1,0 +1,9 @@
+/node_modules
+/dist/css
+/dist/fonts
+/dist/img
+/dist/js
+/dist/index.html
+package-lock.json
+/.vscode
+.idea

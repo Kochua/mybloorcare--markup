@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bloom</title>
+  <link rel="icon" href="img/favicon.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container u-flex-sb">
+        <a href="/"class="logo"><img src="img/logo.png" alt="logo" class="logo__img"></a>
+        <ul class="nav js--main-nav">
+          <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link" id="services-nav">Services</a></li>
+          <li class="nav__item"><a href="http://jobs.mybloom.care/" class="nav__link">Jobs</a></li>
+          <li class="nav__item nav__btn"><button class="btn contact">Contact Us</button></li>
+          <li class="nav__item nav__phone"><a href="#" class="nav__link"><i class="fas fa-phone nav__icon"></i>740-348-5727</a></li>
+        </ul>
+        <a class="nav__mobile-icon js--nav-icon"><i class="fas fa-bars"></i></a>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <div class="text-box animated pulse">
+          <h1 class="text-box__heading">The care that you and your family deserve</h1>
+          <p class="text-box__p">Bloom provides in-home nursing care
+            and aide services to people with developmental disabilities.</p>
+          <button  class="btn btn--big contact">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section-why-us">
+    <div class="u-t--center u-mb--big js--an-1">
+      <h2 class="heading-2">Why Bloom?</h2>
+    </div>
+
+    <div class="why-us">
+      <div class="why-us__item js--an-2">
+        <img src="img/why-us-1.png" alt="1" class="why-us__img">
+        <div class="why-us__textbox">
+          <h2 class="why-us__title">Qualified and Dedicated Professionals</h2>
+          <div class="why-us__p">Our caregivers and nurses are richly experienced, and fully dedicated to providing clients with the best care services. We pride ourselves at providing the expert professionals committed to serving your needs.</div>
+        </div>
+      </div>
+      <div class="why-us__item js--an-3">
+          <img src="img/why-us-2.png " alt="2" class="why-us__img">
+          <div class="why-us__textbox">
+            <h2 class="why-us__title">Custom Care Services</h2>
+            <div class="why-us__p">Our care services are customized to meet the goals and specific emotional, physical, and mental needs of our clients, regardless of your situation.</div>
+          </div>
+      </div>
+      <div class="why-us__item js--an-2">
+          <img src="img/why-us-3.png " alt="3" class="why-us__img">
+          <div class="why-us__textbox">
+            <h2 class="why-us__title">Always Available</h2>
+            <div class="why-us__p">You can trust us to provide quality care services around the clock. Our team of professional caregivers and nurses are available at your disposal at any time of the day, 24/7.</div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-services" id="services">
+    <div class="container">
+      <div class="services">
+        <div class="services-left js--an-4">
+          <div class="services-left__item">
+              <div class="services-left__img-box">
+                  <img src="img/services-1.png" alt="1" class="services-left__img">
+              </div>
+            <span class="services-left__text">Homemaker Personal Care</span>
+          </div>
+          <div class="services-left__item">
+              <div class="services-left__img-box">
+                  <img src="img/services-2.png" alt="1" class="services-left__img">
+              </div>
+            <span class="services-left__text">Medication Administration</span>
+          </div>
+          <div class="services-left__item">
+              <div class="services-left__img-box">
+                  <img src="img/services-3.png" alt="1" class="services-left__img">
+              </div>
+            <span class="services-left__text">Non-Medical Transportation</span>
+          </div>
+          <div class="services-left__item">
+              <div class="services-left__img-box">
+                  <img src="img/services-4.png" alt="1" class="services-left__img">
+              </div>
+            <span class="services-left__text">Skilled Nursing</span>
+          </div>
+        </div>
+        <div class="services-right">
+          <h2 class="heading-2">Our Services</h2>
+          <p class="services-right__p">
+            Bloom provides in-home nursing care and aide services to people with developmental disabilities. 
+            <br><br>
+            Our services are provided to individuals with disabilities who receive services under the Ohio Department of Developmental Disabilities including:</p>
+          <span class="services-right__text">Individual Options Waiver <br>Level One Waiver</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-contact" id="contact">
+    <div class="container">
+      <div class="contact">
+        <div class="contact-left">
+          <h2 class="heading-2">Contact Us</h2>
+          <p class="contact-left__p">Bloom is committed to providing the best services, maximizing life potential, and most importantly, valuing people. <br><br>Contact us today to see how we can help you!</p>
+          <div class="contact-left__phone"><i class="fas fa-phone nav__icon"></i>740-348-5727</div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-right__form js--an-5">
+            <form class="form" id="form" action="./contact-us/" >
+              <div class="form__group">
+                <label for="name" class="form__label">Your Name</label>
+                <input name="name" type="text" class="form__input" required>
+              </div>
+              <div class="form__group">
+                <label for="email" class="form__label">Your Email</label>
+                <input name="email" type="email" class="form__input" required>
+              </div>
+              <div class="form__group">
+                <label for="text" class="form__label">I need care for...</label>
+                <input name="text" type="text" class="form__input" required>
+              </div>
+              <div class="form__group--end">
+                <label class="form__label--response" id="js--response"></label>
+                <button type="submit" class="btn btn--big">Contact Us</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <div class="footer__info">
+        <h4 class="footer__title">ADDRESS</h4>
+        <p class="footer__p">
+            1325 Dayton Road NE
+            Newark, OH 43055
+            740-348-5727
+          </p>
+      </div>
+      <div class="footer__info">
+          <h4 class="footer__title">HOURS</h4>
+          <p class="footer__p">
+              Monday-Friday: 9:00AM-5:00PM
+              Saturday & Sunday: On-Call Available for Emergencies</p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <nav class="footer__menu">
+          <a href="#" class="footer__link footer__title">home</a>
+          <a href="#" class="footer__link footer__title">services</a>
+          <a href="http://jobs.mybloom.care" class="footer__link footer__title">Jobs</a>
+        </nav>
+        <div class="footer__contact">
+            <a href="#contact" class="btn btn--big u-mr--medium">Contact Us</a>
+            <span class="icon-box"><i class="fas fa-phone nav__icon"></i>740-348-5727</span>
+        </div>
+    </div>
+  </footer>
+
+
+
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

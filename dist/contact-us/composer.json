@@ -1,0 +1,13 @@
+{
+    "name": "chenix/mybloom.care.contact-us",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Beqa",
+            "email": "beqalomadze@outlook.com"
+        }
+    ]
+}

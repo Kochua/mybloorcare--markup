@@ -1,0 +1,22 @@
+//COLORS
+$colors: (
+    primaryColor: #333,
+    primaryColorLight: #909090,
+    primaryColorBlue: #00adff
+);
+
+
+@each $key, $val in $colors {
+  .#{$key}-color {
+    color: $val;
+  }
+
+  .#{$key}-bgColor {
+    background-color: $val;
+  }
+}
+
+
+
+// GRID
+$grid-width: 109.2rem;

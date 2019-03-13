@@ -1,0 +1,24 @@
+//TEXT
+.u-t--center {
+    text-align: center;
+}
+
+
+//MARGIN
+.u-mb--big {
+    margin-bottom: 9rem !important;
+}
+
+.u-mr--medium {
+    margin-right: 2rem !important;
+}
+
+
+//FLEX
+.u-flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}

@@ -1,0 +1,37 @@
+// Costum animations
+
+@keyframes phoneRinging {
+    0% {
+        transform: rotate(115deg);
+    }
+
+    50% {
+        transform: rotate(135deg);
+    }
+
+    100% {
+        transform: rotate(115deg);
+    }
+}
+
+
+/* --------- VENDOOR ANIMATION----------*/
+.js--an-1,
+.js--an-2,
+.js--an-3,
+.js--an-4,
+.js--an-5,
+ {
+    opacity: 0;
+    
+}
+
+.js--an-1.animated,
+.js--an-2.animated,
+.js--an-3.animated,
+.js--an-4.animated,
+.js--an-5.animated,
+ {
+    opacity: 1;
+}
+
